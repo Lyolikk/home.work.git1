@@ -1,0 +1,25 @@
+1.pwd
+2.mkdir papka
+3.cd papka
+4.mkdir pap1 pap2 pap3
+5.cd pap1
+6.touch file1.txt file2.txt file3.txt file1.json file2.json
+7.mkdir pap4 pap5 pap6
+8.ls -la
+9.vim file1
+10.i
+     Наша Таня громко плачет
+     Уронила в речку мячик
+     Тише, Танечка, не плачь,
+     Не утонет в речке мяч!
+11.esc 
+     :wq
+12.cd ..
+13.mv file1.txt file2.txt /pap4
+14.cp file1.json file2.json pap5/
+15.find ./ -name "file1.json"
+16.cat file1.txt
+17.head -2 file1.txt
+18.tail -2 file1.txt
+19.less file1.txt
+20.date
